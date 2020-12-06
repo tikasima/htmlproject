@@ -1,0 +1,63 @@
+/* for tablets */ 
+@media (max-width: 1000px) {
+	.lesson { 
+		width: 50%;
+		margin-bottom: 50px;
+	 }
+	 .main-section h1 {
+	 	font-size: 32px;
+	 }
+	 .heading h2 { 
+	 	font-size: 20px;
+	  }
+	  .main-section {
+	  	width: 100%;
+	  }
+  	 .benefit {
+	 	margin-bottom: 400px;
+	 }
+	 .contact h2 {
+	 	margin-top: 50px; 	
+	 }
+}
+
+/* for smartphones */
+@media (max-width: 670px) {
+	.lesson { 
+		width: 100%;
+	 }
+	 .footer {
+	 	text-align: center;
+	 }
+	 .row {
+	 	width: 100%;
+	 }
+	 .menu-icon {
+	    display: block;
+	  }	
+	 .main-section {
+	 	text-align: left;
+	 	padding-top: 130px;
+	 }
+	 .header-list {
+	 	display: none;
+	 }
+
+	 .lesson p { 
+	 	font-size: 14px;
+	 	line-height: 20px;
+	  }
+	  .desc p {
+	  	font-size: 14px;
+	 	line-height: 20px;
+	  }
+	  .contact { 
+	  	padding-top: 50px;
+	  }
+	  .contact-col {
+	  	padding-top: 50px;
+	  }
+	  #contact-form input,textarea {
+	  	width: 200px;
+	  }
+}
